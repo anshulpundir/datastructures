@@ -1,8 +1,8 @@
 # datastructures
 
-trie.h: A trie or a prefix tree with a character key and generic value.
+Trie (trie.h): A trie or a prefix tree with a character key and generic value.
 
-expire_map.h
+ExpireMap (expire_map.h)
 Allows adding of a <key, value> pair and the lookup/removal of a key
 just like a regular map with an added feature of removal of an entry after a
 timout, if not explicitly removed. The access to the map is thread-safe.
